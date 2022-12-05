@@ -1,0 +1,35 @@
+html {
+    width: 100vw;
+}
+
+#titlediv {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#heropic {
+    /*background-image: url("./assets/AxelrodHEROPic.jpeg"); */
+    width: 100vw;
+    height: 20px;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+#herotitle {
+    text-align: center;
+    width:auto;
+    height: auto;
+    position:absolute;
+    top:0;
+    left:0;
+    background-color:blue;
+  }
+
+.tabofc {
+    width: 100%;
+    height: 40%;
+    background-color: red;
+
+}

@@ -1,0 +1,91 @@
+html {
+    width: 100vw;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    background-color: palegoldenrod;
+}
+.pagebanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.pagebannerpic {
+    justify-self: center;
+    align-self: center;
+    width: 90vw;
+    height: auto;
+}
+
+.pagebannertext {
+    justify-self: center;
+    align-self: center;
+    width: auto;
+    height: auto;
+}
+
+table {
+    background-color: palegoldenrod;
+    display: flex;
+    justify-content: space-evenly;
+    table-layout: fixed;
+    width: 100%;
+    border-color: black;
+    border: 3px;
+}
+
+footer {
+    margin: 0;
+    background-color: palegoldenrod;
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialtext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -30px;
+    margin-bottom: -15px;
+}
+
+.socialpics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialpadding {
+    padding: 5px;
+}
+
+hr {
+    background-color: black;
+    height: 1px;
+    width: 65vw;
+    opacity: 25%;
+}
+
+.tablediv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.tablepic {
+    width: 25vw;
+}
+
+.pagelinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
