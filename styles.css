@@ -1,14 +1,27 @@
 html {
     width: 100vw;
 }
+
 body {
     margin: 0;
     background-color: palegoldenrod;
 }
 
+
+
+/*   This is the hero section   */
+.hero {
+    width: 100vw;
+    height: 50vh;
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./assets/AxelrodHEROPic2.jpeg")
+}
+
 .Hero-header {
     -webkit-text-fill-color: palegoldenrod;
-    -webkit-text-stroke: 1.3px;
+    -webkit-text-stroke: .7px;
     text-align: center;
     color: mediumpurple;
     width: 100vw;
@@ -16,25 +29,21 @@ body {
     padding-top: 1vh;
 }
 
+.snlogo {
+    display: flex;
+    justify-content: center;
+    width: 10vw;
+    height: auto;
+}
+
 .subheader-container {
     display: flex;
     justify-content: right;
-    padding-right: 5vw;
 }
 
-.hero {
-    width: 99vw;
-    height: 50vh;
-    margin: 0px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("../../HTML/Website/assets/AxelrodHEROPic2.jpeg");
-}
 
-.second-subheader {
-    padding-left: 50px;
-}
 
+/*   This is the explanation section   */
 .explained {
     display: flex;
     padding-left: 15vw;
@@ -46,17 +55,19 @@ body {
 #xppic {
     padding-top: 1%;
     height: 22.5vh;
-    width: auto;
 }
 
 .xptext {
     padding-right: 25vw;
     padding-left: 10vw;
+    font-size: 1.5vw;
     justify-content: center;
     align-self: center;
 }
 
 
+
+/*   This is the table section   */
 .tablediv {
     display: flex;
     justify-content: center;
@@ -65,13 +76,6 @@ body {
 
 .tablepic {
     width: 25vw;
-}
-
-.snlogo {
-    display: flex;
-    justify-content: center;
-    width: 10vw;
-    height: auto;
 }
 
 table {
@@ -84,6 +88,9 @@ table {
     border: 3px;
 }
 
+
+
+/*   This is the footer section   */
 footer {
     margin: 0;
     background-color: palegoldenrod;
@@ -94,6 +101,7 @@ footer {
     align-items: center;
     justify-content: space-evenly;
 }
+
 .socialmedia {
     display: flex;
     flex-direction: row;
@@ -124,4 +132,25 @@ hr {
     height: 1px;
     width: 65vw;
     opacity: 25%;
+}
+
+
+
+/*   This is the media-query section   */
+@media screen and (max-width: 768px) {
+    .explained {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 0px;
+    }
+
+    /* #xppic {
+        width: 50vw;
+        height: auto;
+    } */
+
+    .xptext {
+        text-align: justify;
+    }
 }
