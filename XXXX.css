@@ -2,10 +2,12 @@ html {
     width: 100vw;
     scroll-behavior: smooth;
 }
+
 body {
     margin: 0;
     background-color: palegoldenrod;
 }
+
 .pagebanner {
     display: flex;
     flex-direction: column;
@@ -35,6 +37,23 @@ table {
     width: 100%;
     border-color: black;
     border: 3px;
+}
+
+.tablediv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.tablepic {
+    width: 25vw;
+}
+
+
+.pagelinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 footer {
@@ -72,20 +91,4 @@ hr {
     height: 1px;
     width: 65vw;
     opacity: 25%;
-}
-
-.tablediv {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-.tablepic {
-    width: 25vw;
-}
-
-.pagelinks {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
 }
