@@ -1,73 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="top">
 
 <head>
-    <link rel="stylesheet" href="Hero.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./assets/spaceneedle.png">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The New Axelrod Photo Album</title>
+    <title>Axelrod Photo Album</title>
 </head>
 
-
 <body>
-    <div id="titlediv">
-        <!--This is the title and hero picture-->
-        <h1 id="herotitle">
-            <!--The title-->
-            Welcome to the Axelrod photo album!
-        </h1>
+    <!-- This is the hero pic, title, logo-->
+    <div class="container">
+        <div class="hero">
+            <h1 class="Hero-header">
+                WELCOME TO THE AXELROD PHOTO ALBUM!
+            </h1>
 
-        <!--<div id="heropic"> <!--++++++++The hero picture+++++++-->
-        <!--<img src="./assets/AxelrodHEROPic.jpeg" style="width: 100%; height: auto;">
-        </div>-->
+            <div class="hero-pic">
+            </div>
+
+            <div class="subheader-container">
+                <img class="snlogo" src="./assets/spaceneedle.png" alt="SPACE NEEDLE LOGO">
+            </div>
+        </div>
     </div>
 
+    </div>
+    <hr>
 
+    <!-- This is the website explanation-->
+    <div class="explained">
+        <img id="xppic" src="./assets/AxelrodHEROPic.jpeg" alt="XPLN PIC">
+        <p class="xptext">
+            Here you'll find all the latest pictures, stories, sound bits, and other goodies that we want to share with
+            our family and friends. Albums are sorted by year, reverse chronologically.
+        </p>
+    </div>
 
-    <div><span>
-            <table class="tabofc" style="width:device-width; height: 100px;">-->
-                <!--This is the table with pictures-->
-                <tr>
-                    <th>Pick a year of photos!</th>
-                    <th>Year</th>
-                </tr>
-                <tr>
-                    <td>PICTURE HERE</td>
-                    <td>2022</td>
-                </tr>
-                <tr>
-                    <td>PICTURE HERE</td>
-                    <td>2021</td>
-                </tr>
+    <hr>
 
-                <div class="box">
-                    <img src="/Users/asafaxelrod/Desktop/CYBERPRO/HTMLProject1/Pics/seattle.jpeg" style="width: 100%">
-                </div>
+    <!-- This is the table of contents; picture, year-->
+    <div class="tablediv">
+        <table>
+            <tr>
+                <th>
+                    Pick a year to see it's photos!
+                </th>
+                <th>
 
+                </th>
+            </tr>
+            <tr>
+                <td><a href="./XXXX.html">
+                        <img class="tablepic" src="./assets/2022logo.jpg" alt="2022 PHOTO">
+                </td>
+                <td>
+                    2022
+                </td></a>
+            </tr>
+            <tr>
+                <td><a href="./XXXX.html">
+                        <img class="tablepic" src="./assets/2021logo.jpg" alt="2021 PHOTO">
+                </td>
+                <td>
+                    2021
+                </td></a>
+            </tr>
+        </table>
+    </div>
 
-            </table>
-        </span></div>
+    <hr>
 
+    <!-- This is the footer; social media links, Seattle pic. -->
+    <footer>
+        <div class="socialmedia">
+            <!-- This is where the horizontal line and links to social media are coded -->
+            <!-- This is the text credits below the line -->
 
+            <div class="socialtext">
+                <h6> This page was made by Asaf Axelrod. Links to social media:</h6>
+            </div>
 
+        </div>
+        <div class="socialpics">
+            <!-- This is the link to Facebook -->
+            <!-- https://www.facebook.com/AxelrodAsaf -->
+            <a class="socialpadding" href="https://www.facebook.com/AxelrodAsaf">
+                <img src="./assets/facebook.png" width="30px" height="30px">
+            </a>
 
+            <!-- This is the link to Twitter -->
+            <!-- https://twitter.com/asafaxelrod -->
+            <a class="socialpadding" href="https://www.twitter.com/asafaxelrod">
+                <img src="./assets/twitter.png" width="30px" height="30px">
+            </a>
 
+            <!-- This is the link to Instagram -->
+            <!-- https://www.instagram.com/asafaxelrod/ -->
+            <a class="socialpadding" href="https://www.instagram.com/asafaxelrod/">
+                <img src="./assets/insta.png" width="30px" height="30px">
+            </a>
 
+            <!-- This is the link to LinkedIn -->
+            <!-- https://www.linkedin.com/in/asaf-axelrod-9353b1ba/ -->
+            <a class="socialpadding" href="https://www.linkedin.com/in/asaf-axelrod-9353b1ba/">
+                <img src="./assets/linkedin.png" width="30px" height="30px">
+            </a>
+        </div>
+        <hr>
+        <a class="pagelinks" href="#top">
+            <p>BACK TO TOP</p>
+        </a>
 
+        <div class="seattlepic">
+            <img src="./assets/seattle.jpeg" style="width: 100%" style="height: auto">
+        </div>
 
+    </footer>
 
-
-
-
-    <!--++++++++++++++++++++++++++++++++++SCRAP CODE BELOW+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
-
-    <!-- <body style="margin:0; width:100vw; height:auto;" background="./assets/AxelrodHEROPic.jpeg"> -->
-
-
-    <!-- <div class="box">
-         <img src="/Users/asafaxelrod/Desktop/CYBERPRO/HTMLProject1/Pics/seattle.jpeg" style="width: 100%; height: auto;">
-     </div>  -->
 </body>
 
 </html>
