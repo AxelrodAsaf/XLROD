@@ -11,7 +11,7 @@ body {
 
 
 /*   This is the hero section   */
-.hero {
+.hero { /*div*/
     width: 100vw;
     height: 50vh;
     margin: 0px;
@@ -20,7 +20,7 @@ body {
     background-image: url("./assets/AxelrodHEROPic2.jpeg")
 }
 
-.Hero-header {
+.Hero-header { /*h1*/
     -webkit-text-fill-color: palegoldenrod;
     -webkit-text-stroke: .7px;
     text-align: center;
@@ -28,7 +28,11 @@ body {
     width: 100vw;
     margin-top: 0vh;
     padding-top: 1vh;
+    top: 0;
+    position: sticky;
 }
+
+
 
 .snlogo {
     display: flex;
