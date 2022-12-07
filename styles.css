@@ -15,6 +15,7 @@ body {
     width: 100vw;
     height: 50vh;
     margin: 0px;
+    border-radius: 0px 0px 50px 50px;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("./assets/AxelrodHEROPic2.jpeg")
@@ -31,8 +32,6 @@ body {
     top: 0;
     position: sticky;
 }
-
-
 
 .snlogo {
     display: flex;
@@ -130,6 +129,9 @@ footer {
 
 .socialpadding {
     padding: 5px;
+}
+
+.seattlepic {
 }
 
 hr {
